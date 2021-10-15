@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio</title>
+        <link rel="stylesheet" href="assets/main.css">
+        <link rel="stylesheet" href="assets/contacto.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+        <script src="https://unpkg.com/typeit@8.0.2/dist/index.umd.js"></script>
+
+    </head>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/#Contacto"> CONTACTO </a>
+                </li>
+                <li>
+                    <a href="/#Servicios"> SERVICIOS </a>
+                </li>
+                <li>
+                    <a href="/#Portafolio"> PORTAFOLIO </a>
+                </li>
+            </ul>
+        </nav>
+        <div class = "contenedor-principal">
+            <h1> Diseño Web / Programación Web / JavaScript / CSS </h1>
+            <h2 id="texto_escribe" >"I AM GORETTI"
+                <span>WEB</span>
+                <span>DEVELOPER</span>
+            </h2>
+        </div>
+        <br>
+    </header>
+    <body>
+    <!-- Servicios -->
+        <section>
+            <div class="contenedor-servicios">
+                <br>
+                <br>
+                <h4 id="Servicios">Servicios</h4>
+                <br>
+                <h5>Enviame un mensaje y te contesto lo más rápido que sea humanamente posible</h5>
+                <br>
+                <br>
+            </div>
+        </section>
+        <!-- Portafolio -->
+        <section>
+            <div class="contenedor-portafolio">
+                <br>
+                <br>
+                <h4 id="Portafolio">Portafolio</h4>
+                <br>
+                <h5>Enviame un mensaje y te contesto lo más rápido que sea humanamente posible</h5>
+                <br>
+                <br>
+            </div>
+        </section>
+    <!-- Contacto -->
+        <section>
+            <div class="contenedor-contacto">
+                <h4 id="Contacto">Contacto</h4>
+                <br>
+                <h5>Enviame un mensaje y te contesto lo más rápido que sea humanamente posible</h5>
+            </div>
+            <div class="contact-icon">
+                <div class="icons">
+                    <div style="float: left;">
+                        <i class="fa fa-map-marker" aria-hidden="true" ></i>
+                        <p>Calle Rivera Del Rio #53,</p>
+                        <p id="renglon">Dolores Hidalgo, Gto., México</p>
+                    </div>
+                    <div style="float: right;">
+                        <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                        <p>Rellena el formulario</p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="inputs">
+                <input class="styled" type="text" placeholder="NOMBRE" id="inputName" name="inputName" required>
+                <input class="styled" type="text" placeholder="EMAIL" id="inputEmail" name="inputEmail" required>
+                <input class="styled" type="text" placeholder="ASUNTO" id="inputAsunto" name="inputAsunto" required>
+                <textarea class="styled_msg" type="text" placeholder="MENSAJE" id="inputMensaje" name="inputMensaje" required></textarea>
+                <div class="checkButton" >
+                    <div>
+                        <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                        <label for="checkbox"> Acepto las condiciones de privacidad </label>
+                    </div>
+                    <button type="submit" class="btn_enviar" id="btn-mensaje">ENVIAR MENSAJE</button>
+                </div>
+            </div>
+            <div>
+            </div>
+            <br>
+            <br>
+            <div class="map">
+                <div class="map-section">
+                    <h3 class="map-section-title">¿Nos reunimos en mi estudio?</h3> 
+                </div>
+                <div class="gmap_canvas">
+                    <iframe width="100%" height="40%" id="gmap_canvas" src="https://maps.google.com/maps?q=Rivera%20del%20Rio,%20Dolores%20Hidalgo&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe>
+                    <br>
+                    <style>.mapouter{position:relative;text-align:right;height:40%;width:100%;}</style>
+                    <style>.gmap_canvas {overflow:hidden;background:none!important;height:40%;width:100%;}</style>            
+                </div>
+            </div>
+            <div class = "social-icon-container">
+                <a href = "https://www.facebook.com/" target="_blank"> 
+                    <svg class="icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m75 512h167v-182h-60v-60h60v-75c0-41.355469 33.644531-75 75-75h75v60h-60c-16.542969 0-30 13.457031-30 30v60h87.292969l-10 60h-77.292969v182h135c41.355469 0 75-33.644531 75-75v-362c0-41.355469-33.644531-75-75-75h-362c-41.355469 0-75 33.644531-75 75v362c0 41.355469 33.644531 75 75 75zm-45-437c0-24.8125 20.1875-45 45-45h362c24.8125 0 45 20.1875 45 45v362c0 24.8125-20.1875 45-45 45h-105v-122h72.707031l20-120h-92.707031v-30h90v-120h-105c-57.898438 0-105 47.101562-105 105v45h-60v120h60v122h-137c-24.8125 0-45-20.1875-45-45zm0 0">
+                        </path>
+                    </svg>
+                </a>
+                <a href = "https://www.instagram.com/" target="_blank"> 
+                    <svg class="icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m75 512h362c41.355469 0 75-33.644531 75-75v-362c0-41.355469-33.644531-75-75-75h-362c-41.355469 0-75 33.644531-75 75v362c0 41.355469 33.644531 75 75 75zm-45-437c0-24.8125 20.1875-45 45-45h362c24.8125 0 45 20.1875 45 45v362c0 24.8125-20.1875 45-45 45h-362c-24.8125 0-45-20.1875-45-45zm0 0"/><path d="m256 391c74.4375 0 135-60.5625 135-135s-60.5625-135-135-135-135 60.5625-135 135 60.5625 135 135 135zm0-240c57.898438 0 105 47.101562 105 105s-47.101562 105-105 105-105-47.101562-105-105 47.101562-105 105-105zm0 0"/><path d="m406 151c24.8125 0 45-20.1875 45-45s-20.1875-45-45-45-45 20.1875-45 45 20.1875 45 45 45zm0-60c8.269531 0 15 6.730469 15 15s-6.730469 15-15 15-15-6.730469-15-15 6.730469-15 15-15zm0 0"/>
+                    </svg>
+                </a>
+                <a href = "https://www.linkedin.com/" target="_blank"> 
+                    <svg class="icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m437 0h-362c-41.355469 0-75 33.644531-75 75v362c0 41.355469 33.644531 75 75 75h362c41.355469 0 75-33.644531 75-75v-362c0-41.355469-33.644531-75-75-75zm45 437c0 24.8125-20.1875 45-45 45h-362c-24.8125 0-45-20.1875-45-45v-362c0-24.8125 20.1875-45 45-45h362c24.8125 0 45 20.1875 45 45zm0 0"/><path d="m91 422h90v-212h-90zm30-182h30v152h-30zm0 0"/><path d="m331.085938 210c-.027344 0-.058594 0-.085938 0-10.371094 0-20.472656 1.734375-30 5.101562v-5.101562h-90v212h90v-107c0-8.269531 6.730469-15 15-15s15 6.730469 15 15v107h90v-117.3125c0-48.546875-39.382812-94.640625-89.914062-94.6875zm59.914062 182h-30v-77c0-24.8125-20.1875-45-45-45s-44.996094 20.1875-45 44.996094v77.003906h-30v-152h30v30.019531l24.007812-18.03125c10.441407-7.84375 22.886719-11.988281 35.992188-11.988281h.058594c31.929687.03125 59.941406 30.257812 59.941406 64.6875zm0 0"/><path d="m91 180h90v-90h-90zm30-60h30v30h-30zm0 0"/>
+                    </svg>  
+                </a>    
+                <a href = "https://www.whatsapp.com/" target="_blank"> 
+                    <svg class="icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m123.832031 475.464844c39.558594 23.804687 84.789063 36.351562 131.261719 36.351562 140.824219 0 256.90625-114.914062 256.90625-255.910156 0-140.832031-115.917969-255.90625-256.90625-255.90625-140.558594 0-254.910156 114.800781-254.910156 255.90625 0 47.09375 12.550781 92.667969 36.351562 132.257812l-36.535156 123.835938zm-93.65625-219.558594c0-124.570312 100.898438-225.917969 224.917969-225.917969 125.121094 0 226.917969 101.347657 226.917969 225.917969 0 124.574219-101.796875 225.917969-226.917969 225.917969-43.054688 0-84.894531-12.195313-120.984375-35.273438l-5.765625-3.683593-83.988281 24.78125 24.777343-83.992188-3.683593-5.761719c-23.078125-36.097656-35.273438-78.277343-35.273438-121.988281zm0 0"/><path d="m124.628906 208.753906c4.953125 26.011719 19.65625 76.042969 62.464844 118.851563 42.808594 42.808593 92.839844 57.515625 118.855469 62.46875 29.789062 5.671875 73.503906 6.527343 94.867187-14.835938l11.910156-11.910156c6.011719-6.011719 9.324219-14.007813 9.324219-22.511719s-3.3125-16.496094-9.324219-22.507812l-47.628906-47.628906c-6.015625-6.015626-14.007812-9.324219-22.511718-9.324219-8.503907 0-16.496094 3.308593-22.511719 9.324219l-11.90625 11.90625c-7.273438 7.273437-21.003907 7.304687-28.332031.089843l-47.507813-49.5c-.070313-.074219-.140625-.148437-.214844-.21875-7.285156-7.285156-7.285156-19.140625 0-26.425781l11.90625-11.90625c12.445313-12.445312 12.445313-32.582031 0-45.023438l-47.628906-47.628906c-12.410156-12.410156-32.605469-12.410156-45.019531 0l-11.90625 11.910156v-.003906c-17.050782 17.054688-22.734375 53.40625-14.835938 94.875zm36.042969-73.664062c12.5-12.214844 11.832031-12.449219 13.210937-12.449219.472657 0 .945313.179687 1.304688.539063 50.1875 50.457031 48.171875 47.492187 48.171875 48.9375 0 .503906-.183594.945312-.539063 1.304687l-11.910156 11.90625c-18.964844 18.964844-19.039062 49.664063-.121094 68.714844l47.535157 49.53125c.074219.070312.144531.144531.21875.21875 18.960937 18.960937 51.808593 19.023437 70.832031 0l11.90625-11.90625c.71875-.71875 1.890625-.71875 2.609375 0 50.1875 50.453125 48.171875 47.488281 48.171875 48.933593 0 .507813-.183594.945313-.539062 1.304688l-11.910157 11.90625c-8.160156 8.160156-34.152343 13.042969-68.054687 6.585938-22.625-4.3125-66.128906-17.085938-103.257813-54.214844-37.128906-37.128906-49.902343-80.632813-54.210937-103.257813-6.460938-33.902343-1.578125-59.898437 6.582031-68.054687zm0 0"/></svg>
+                </a>
+            </div>
+            <div>
+                <p class="copy-right">WEB DEVELOPER 2021</p>
+                <p id="name">Martha Goretti Escalante Guerrero</p>
+            </div>
+            <br>
+            <br>
+        </section>
+    </body>
+</html>
+
+<script>
+    new TypeIt("#texto_escribe", {
+        speed: 100,
+        loop: true,
+    }).go();
+</script>
